@@ -515,14 +515,19 @@ h3 {
   .header-nav-desktop {
     display: none;
   }
-
   .hamburger {
     display: flex;
   }
-
+  .seller-heading{
+    font-size: 24px;
+  }
+.social-img{
+  font-size: 24px;
+}
   .header-call {
     padding: 0.75rem 1.1rem;
     font-size: 24px;
+    display: none;
   }
 
   .header-actions {
@@ -760,7 +765,7 @@ h3 {
 
 .seller-highlight {
   font-family: var(--font-heading);
-  font-size: 36px;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 0.75rem;
   color: black;
